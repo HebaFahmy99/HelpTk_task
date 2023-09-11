@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@300&display=swap');
+$MainColor: #0E2E5C; 
+$SecColor: #F39B27;  
+$headingFamilyFont: 'Poppins', sans-serif;
+
+a{ 
+    text-decoration: none; 
+ }
+.color{ 
+    color: $MainColor; 
+} 
+
+.backgroundColor{ 
+    background-color: $SecColor;
+} 
+ 
+.shared-btn{ 
+    display: flex;
+    width: 150px;
+    height: 36px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    gap: 10px;
+    border-radius: 8px; 
+    background-color: $MainColor;
+    font-family: $headingFamilyFont;
+} 
+
+.layer{ 
+    background-color:#EFCAB5;
+} 
+
+.imgCover{ 
+    position: relative; 
+    right: 30px; 
+    top: 40px;
+}

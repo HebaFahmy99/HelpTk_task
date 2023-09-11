@@ -1,0 +1,26 @@
+<app-menu></app-menu>
+<div class="outer my-5  d-flex justify-content-center align-items-center">
+    <div class="row inner gx-5 my-5">
+        <div class="col-md-6">
+            <div class="inner-info">
+                <h2>{{itemDetails[0]?.organizationName}}</h2> 
+                <p class="text-muted">{{itemDetails[0]?.description}}</p> 
+                <div class="row">
+                    <div class="col-md-7 col-sm-12 ms-md-0 m-auto">
+                        <button class="shared-btn w-100 "> 
+                            <a routerLink="/itemdetails" class="text-white">view more</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="col-md-6 mt-4 pe-1"> 
+            <div class="layer">
+                <div class="imgCover">
+                    <img [src]="itemDetails[0]?.coverImage" class="w-100" alt="">
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+<app-slider></app-slider>

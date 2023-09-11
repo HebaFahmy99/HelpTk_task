@@ -1,0 +1,44 @@
+owl-carousel-o {
+    position: relative;
+  }
+  
+  ::ng-deep .owl-prev, ::ng-deep .owl-next {
+    position:absolute;
+    top: 50%;
+    background-color: #8696AD !important; 
+    width: 35px; 
+    height: 35px; 
+    border-radius: 50% !important ;
+  }
+  
+  ::ng-deep .owl-prev {
+    left: -10%;   
+}
+  ::ng-deep .owl-next{ 
+    left: -5.5%;
+  }  
+  .slider{ 
+    margin-right: 48px;
+  }
+  .slide{ 
+    gap: 23px; 
+    margin-right: 20px;
+  }
+@media only screen and (max-width: 992px){ 
+    ::ng-deep .owl-prev, ::ng-deep .owl-next{ 
+        top: 110%; 
+    } 
+
+    ::ng-deep .owl-prev {
+        left: -3%;   
+    }
+      ::ng-deep .owl-next{ 
+        left: 10%;
+      } 
+      .slider{ 
+        margin-right: 0px;
+      } 
+      .slide{ 
+        gap: 0;
+    }
+} 
